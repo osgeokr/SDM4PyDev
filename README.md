@@ -40,3 +40,24 @@ pip install wheel
 pip install pipwin
 pipwin refresh
 ```
+## Data
+* BIOCLIM 폴더: 한반도 영역(33°∼43°N, 124°∼132°E)의 1970~2000년 평균 19종 생물기후 변수(Bioclimatic variables) [[데이터 출처]](https://www.worldclim.org/data/bioclim.html)
+* Zosterops_japonicus.gpkg: 동박새(Warbling white-eye) 출현(presence) 좌표 [[데이터 출처]](https://plugins.qgis.org/plugins/qgisgbifapi/)
+* ADM_KOR.gpkg: 행정구역 시군구 경계 [[데이터 출처]](http://data.nsdi.go.kr/dataset/20180927ds0058)
+
+## SDM for Python_Developers v0.1.0
+* 임의 비출현 지점(pseudo-absence points) 자동 생성
+* 포인트 샘플링 시 NODATA 오류(생물기후 변수 값이 없는 경우) 처리
+* 8종 머신러닝(Machine Learning) 분류기 지원
+```
+CLASS_MAP = {
+    'RF': (RandomForestClassifier()), # 랜덤포레스트
+    'ET': (ExtraTreesClassifier()), # 엑스트라트리
+    'ADA' : (AdaBoostClassifier()), # 아다부스트
+    'BAG' : (BaggingClassifier()), # 배깅
+    'GRA' : (GradientBoostingClassifier()), # 그레디언트부스팅
+    'XGB': (XGBClassifier()), # 엑스지부스트
+    'LGBM': (LGBMClassifier()), # 라이트그레디언트부스팅
+    'Maxent':(LogisticRegression()), # 로지스틱회귀(맥센트)
+    }
+```
