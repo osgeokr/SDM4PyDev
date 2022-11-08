@@ -45,7 +45,7 @@ pipwin refresh
 * Zosterops_japonicus.gpkg: 동박새(Warbling white-eye) 출현(presence) 좌표 [[데이터 출처]](https://plugins.qgis.org/plugins/qgisgbifapi/)
 * ADM_KOR.gpkg: 행정구역 시군구 경계 [[데이터 출처]](http://data.nsdi.go.kr/dataset/20180927ds0058)
 
-## SDM for Python_Developers v0.1.0
+## SDM for Python Developers v0.1.0
 * 임의 비출현 지점(pseudo-absence points) 자동 생성
 * 포인트 샘플링 시 NODATA 오류(생물기후 변수 값이 없는 경우) 처리
 * 8종 머신러닝(Machine Learning) 분류기 지원
