@@ -1,4 +1,4 @@
-<img src="https://user-images.githubusercontent.com/52292818/201135464-26b73133-5855-48a9-b3bd-3c8c867bde04.png" width="50%">
+<img src="https://user-images.githubusercontent.com/52292818/201135464-26b73133-5855-48a9-b3bd-3c8c867bde04.png" width="500px">
 
 ## Introduction
 파이썬 개발자를 위한 종 분포 모델링(SDM: Species Distribution Modeling)을 구현합니다. SDM은 컴퓨터 알고리즘을 사용하여 지리적 시공간에 걸쳐 종의 분포를 예측하는 모델링입니다. SDM for Python Developers의 소스코드는 2020년 미국 데이터사이언티스트 다니엘 퍼먼(Daniel Furman)이 공개한 [[A brief introduction to Species Distribution Models in Python]](https://daniel-furman.github.io/Python-species-distribution-modeling/) 오픈소스를 기반으로 합니다. 국립공원공단 지리공간분석가 유병혁은 2021년 다니엘 퍼먼의 일부 소스코드를 최적화해서 [[QGIS와 Python을 이용한 종 분포 모델링(SDM)]](https://www.youtube.com/watch?v=UpUmAVvnL04) 유튜브 콘텐츠 등으로 재공유했습니다. 이후 [[2022년 데이터 청년 캠퍼스]](https://www.lafent.com/inews/news_view.html?news_id=131228&wrter=%EC%9C%A0%EB%B3%91%ED%98%81+%EA%B3%BC%EC%9E%A5) 빅리더 AI 아카데미 프로젝트에 참여한 공희배, 전영웅, 이은주, 김진규, 김민기 5명의 데이터과학 전공자가 소스코드를 PoC(Proof of Concept) 단계의 소프트웨어 WAY(Where Are You)로 발전시켰습니다. SDM for Python Developers는 유병혁에 의해 개발 중이며 경상국립대학교 조경학과 대학원(이수동 교수)에서 테스터로 참여하며 배포되고 있습니다.
