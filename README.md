@@ -46,13 +46,20 @@ pip install wheel
 pip install pipwin
 pipwin refresh
 ```
+* 클라우드 기반에서 SDM4PyDev를 구동해 보실 수 있습니다. [[SDM4PyDev on Google Colab]](https://colab.research.google.com/drive/1Mo1GuM6BnKKquHUYJiL1V0ZHhXNCQ42c?usp=sharing)은 국립공원 학습동아리 '파크랩(ParkLab)' 모임에 참여한 배진익 님이 자발적으로 제공해 주셨습니다.
+<table>
+  <tr>
+    <td><img src="https://user-images.githubusercontent.com/52292818/201135200-6d64b899-7b81-4984-b7bd-534deb698ddf.png" width="500"/></td>
+    <td><img src="https://user-images.githubusercontent.com/52292818/201136500-3b487284-a885-4b79-ba11-00cd9251a8b8.png" width="500"/></td>
+  <tr>
+</table>
+
 ## Data
 * BIOCLIM 폴더: 한반도 영역(33°∼43°N, 124°∼132°E)의 1970~2000년 평균 19종 생물기후 변수(Bioclimatic variables) [[데이터 출처]](https://www.worldclim.org/data/bioclim.html)
 * Zosterops_japonicus.gpkg: 동박새(Warbling white-eye) 출현(presence) 좌표 [[데이터 출처]](https://plugins.qgis.org/plugins/qgisgbifapi/)
 * ADM_KOR.gpkg: 행정구역 시군구 경계 [[데이터 출처]](http://data.nsdi.go.kr/dataset/20180927ds0058)
 
-
-## Functions
+## SDM4PyDev Functions
 * 출현 지점과 중복되지 않은 영역에서 임의 비출현 지점(pseudo-absence points)을 자동 생성합니다.
 * 출현/비출현 지점에 대한 생물기후 변수 피처를 포인트 샘플링합니다.
 * 8종 머신러닝(Machine Learning) 분류기를 지원합니다.
@@ -68,14 +75,3 @@ CLASS_MAP = {
     'Maxent':(LogisticRegression()), # 로지스틱회귀(맥센트)
     }
 ```
-
-## SDM4PyDev on Google Colab
-* SDM4PyDev의 구글 코랩(Google Colab) 실행은 PT Mobility Doctor Indonesia의 개발자 배진익 님이 제공해주고 계십니다.
-* [[SDM4PyDev on Google Colab v0.1.0 바로가기]](https://colab.research.google.com/drive/1Mo1GuM6BnKKquHUYJiL1V0ZHhXNCQ42c?usp=sharing)
-* 배진익 님은 국립공원 학습동아리 '파크랩(ParkLab)'의 회원님이십니다. 2022년 11월 10일 파크랩 모임 이후 자발적ㅇㅣㄴ
-<table>
-  <tr>
-    <td><img src="https://user-images.githubusercontent.com/52292818/201135200-6d64b899-7b81-4984-b7bd-534deb698ddf.png" width="500"/></td>
-    <td><img src="https://user-images.githubusercontent.com/52292818/201136500-3b487284-a885-4b79-ba11-00cd9251a8b8.png" width="500"/></td>
-  <tr>
-</table>
