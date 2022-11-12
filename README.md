@@ -48,18 +48,20 @@ pip install wheel
 pip install pipwin
 pipwin refresh
 ```
+## Try SDM4PyDev!
 * 클라우드 기반에서 SDM4PyDev를 구동해 보실 수 있습니다. [[SDM4PyDev on Google Colab]](https://colab.research.google.com/drive/1Mo1GuM6BnKKquHUYJiL1V0ZHhXNCQ42c?usp=sharing)은 국립공원 학습동아리 '파크랩(ParkLab)' 모임에 참여한 배진익 님이 자발적으로 제공해 주셨습니다.
 <table>
   <tr>
-    <td><img src="https://user-images.githubusercontent.com/52292818/201135200-6d64b899-7b81-4984-b7bd-534deb698ddf.png" width="500"/></td>
-    <td><img src="https://user-images.githubusercontent.com/52292818/201136500-3b487284-a885-4b79-ba11-00cd9251a8b8.png" width="500"/></td>
+    <td><img src="https://user-images.githubusercontent.com/52292818/201135200-6d64b899-7b81-4984-b7bd-534deb698ddf.png" width="500"></td>
+    <td><img src="https://user-images.githubusercontent.com/52292818/201136500-3b487284-a885-4b79-ba11-00cd9251a8b8.png" width="500"></td>
   <tr>
 </table>
+
 * 경상국립대학교 조경학과 김현 연구원님은 물두꺼비(Korean toad; Bufo stejnegeri) 연구에 SDM4PyDev를 활용하고 계십니다.
 <table>
   <tr>
-    <td><img src="https://user-images.githubusercontent.com/52292818/201481405-d627880c-b96d-4858-b6c3-5fb12774b49e.jpg" width="500"/></td>
-    <td><img src="https://user-images.githubusercontent.com/52292818/201481406-09ead698-abf3-47cf-acba-7b580ef32464.jpg" width="500"/></td>
+    <td><img src="https://user-images.githubusercontent.com/52292818/201481405-d627880c-b96d-4858-b6c3-5fb12774b49e.jpg" width="500"></td>
+    <td><img src="https://user-images.githubusercontent.com/52292818/201481406-09ead698-abf3-47cf-acba-7b580ef32464.jpg" width="500"></td>
   <tr>
 </table>
 
