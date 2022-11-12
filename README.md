@@ -55,6 +55,13 @@ pipwin refresh
     <td><img src="https://user-images.githubusercontent.com/52292818/201136500-3b487284-a885-4b79-ba11-00cd9251a8b8.png" width="500"/></td>
   <tr>
 </table>
+* 경상국립대학교 조경학과 김현 연구원님은 물두꺼비(Korean toad; Bufo stejnegeri) 연구에 SDM4PyDev를 활용하고 계십니다.
+<table>
+  <tr>
+    <td><img src="https://user-images.githubusercontent.com/52292818/201481405-d627880c-b96d-4858-b6c3-5fb12774b49e.jpg" width="500"/></td>
+    <td><img src="https://user-images.githubusercontent.com/52292818/201481406-09ead698-abf3-47cf-acba-7b580ef32464.jpg" width="500"/></td>
+  <tr>
+</table>
 
 ## Data
 * BIOCLIM 폴더: 한반도 영역(33°∼43°N, 124°∼132°E)의 1970~2000년 평균 19종 생물기후 변수(Bioclimatic variables) [[데이터 출처]](https://www.worldclim.org/data/bioclim.html)
